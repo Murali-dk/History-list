@@ -1,0 +1,59 @@
+.list-cont {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.list-time {
+  font-size: 30px;
+  margin-right: 100px;
+}
+.list-img {
+  height: 50px;
+  width: 50px;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+.list-title {
+  color: #475569;
+  font-size: 30px;
+  font-weight: 500;
+  margin-right: 14px;
+}
+.list-domain {
+  color: #64748b;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.list-delete {
+  width: 30px;
+  height: 50px;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .list-time {
+  font-size: 25px;
+  margin-right: 20px;
+  margin-left: 0px;
+}
+.list-img {
+  height: 40px;
+  width: 40px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.list-title {
+  color: #475569;
+  font-size: 25px;
+  font-weight: 400;
+  margin-right: 10px;
+}
+}
